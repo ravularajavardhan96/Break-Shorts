@@ -83,5 +83,5 @@ This extension uses the following permissions:
 - For any questions or feedback, reach out to me on LinkedIn.
 
 
-
+#### Ignore errors after adding the extension in the extensions tab
 ### Thank you for checking out YouTube Shorts Redirector!
