@@ -23,24 +23,65 @@ A simple Chrome extension that automatically redirects YouTube Shorts URLs (`you
    
 2. **Open Chrome Extensions page**
 
-Open Chrome and go to chrome://extensions/
+ &nbsp; &nbsp; &nbsp; &nbsp;Open Chrome and go to chrome://extensions/
 
-   Alternatively, click on the Chrome menu (three dots) > More Tools > Extensions.
+  &nbsp; &nbsp; &nbsp; &nbsp; Alternatively, click on the Chrome menu (three dots) > More Tools > Extensions.
 
 3.**Enable Developer Mode**
 
-   Toggle the Developer mode switch on the top right corner.
+   &nbsp; &nbsp; &nbsp; &nbsp; Toggle the Developer mode switch on the top right corner.
 
 4.**Load unpacked extension**
 
-   Click on Load unpacked and select the folder where you cloned or extracted the repository.
+   &nbsp; &nbsp; &nbsp; &nbsp; Click on Load unpacked and select the folder where you cloned or extracted the repository.
+
 
 5.**Extension is now installed**
 
-   You should see "YouTube Shorts Redirector" in your extensions list.
+   &nbsp; &nbsp; &nbsp; &nbsp; You should see YouTube Shorts Redirector in your extensions list.
+   
+## Usage
 
-***Usage***
-Browse YouTube normally.
+- Browse YouTube normally.
 
-When you open a Shorts URL like https://www.youtube.com/shorts/VIDEO_ID, the extension automatically redirects you to the standard video page https://www.youtube.com/watch?v=VIDEO_ID.
+- When you open a Shorts URL like https://www.youtube.com/shorts/VIDEO_ID, the extension automatically redirects you to the standard video page https://www.youtube.com/watch?v=VIDEO_ID.
 
+## Permissions
+
+This extension uses the following permissions:
+
+- "storage": To save and track the number of redirects per day.
+
+- "tabs": To detect URL changes and perform redirection.
+
+- "webNavigation": To monitor navigation events related to YouTube URLs.
+
+- "host_permissions": Access to https://www.youtube.com/* URLs to detect Shorts and redirect.
+
+
+## How it works
+- Listens for tab updates to detect when a YouTube Shorts URL loads.
+
+- Extracts the video ID from the Shorts URL.
+
+- Redirects the tab to the normal video URL with full video stats and sound.
+
+- Tracks the number of redirects each day using Chrome local storage.
+
+## Credits
+- Idea inspired by my own struggle to reduce mindless scrolling on YouTube Shorts.
+
+- Developed with help from ChatGPT.
+
+ ## License
+- This project is open source and free to use.
+
+## Contributing
+- Feel free to open issues or submit pull requests to improve the extension.
+
+## Contact
+- For any questions or feedback, reach out to me on LinkedIn.
+
+
+
+### Thank you for checking out YouTube Shorts Redirector!
