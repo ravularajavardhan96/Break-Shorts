@@ -25,21 +25,21 @@ A simple Chrome extension that automatically redirects YouTube Shorts URLs (`you
 
 Open Chrome and go to chrome://extensions/
 
-Alternatively, click on the Chrome menu (three dots) > More Tools > Extensions.
+   Alternatively, click on the Chrome menu (three dots) > More Tools > Extensions.
 
 3.**Enable Developer Mode**
 
-Toggle the Developer mode switch on the top right corner.
+   Toggle the Developer mode switch on the top right corner.
 
 4.**Load unpacked extension**
 
-Click on Load unpacked and select the folder where you cloned or extracted the repository.
+   Click on Load unpacked and select the folder where you cloned or extracted the repository.
 
 5.**Extension is now installed**
 
-You should see "YouTube Shorts Redirector" in your extensions list.
+   You should see "YouTube Shorts Redirector" in your extensions list.
 
-Usage
+***Usage***
 Browse YouTube normally.
 
 When you open a Shorts URL like https://www.youtube.com/shorts/VIDEO_ID, the extension automatically redirects you to the standard video page https://www.youtube.com/watch?v=VIDEO_ID.
